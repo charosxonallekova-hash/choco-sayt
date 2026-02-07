@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#2a140b;
+    color: white;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    padding: 20 px 50 px;  
+}
+
+.menu{
+    list-style:none;
+    display: flex;
+    gap: 25 px;
+}
+
+.menu a {
+    color:white;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.menu a:hover {
+    color:#f3c77a;
+}
+
+.page {
+    display:none;
+    padding:60 px;
+}
+
+.page.active {
+    display:block;
+}
+
+span {
+    color:#f3c77a;
+}
+
+.btn {
+    padding:12 px 30 px;
+    background: #f3c77a;
+    border:none;
+    border-radius: 25 px;
+    cursor:pointer;
+}
+
+.products {
+    display:flex:
+    gap: 20 px;
+    margin-top:30 px;
+}
+
+.card {
+    background: #3d1f12;
+    padding:20 px;
+    border-radius:10 px;
+}
+
